@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./Backend
+      dockerfile: CashControl.API/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - cashcontrol-net
+
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: CashControlFront/Dockerfile
+    ports:
+      - "4200:4200"
+    networks:
+      - cashcontrol-net
+    depends_on:
+      - backend
+
+networks:
+  cashcontrol-net:
+    driver: bridge

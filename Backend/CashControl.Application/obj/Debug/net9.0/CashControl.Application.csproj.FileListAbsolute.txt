@@ -1,0 +1,17 @@
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\bin\Debug\net9.0\CashControl.Application.deps.json
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\bin\Debug\net9.0\CashControl.Application.dll
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\bin\Debug\net9.0\CashControl.Application.pdb
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\bin\Debug\net9.0\CashControl.Domain.dll
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\bin\Debug\net9.0\CashControl.Infrastructure.dll
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\bin\Debug\net9.0\CashControl.Domain.pdb
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\bin\Debug\net9.0\CashControl.Infrastructure.pdb
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\obj\Debug\net9.0\CashControl.Application.csproj.AssemblyReference.cache
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\obj\Debug\net9.0\CashControl.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\obj\Debug\net9.0\CashControl.Application.AssemblyInfoInputs.cache
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\obj\Debug\net9.0\CashControl.Application.AssemblyInfo.cs
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\obj\Debug\net9.0\CashControl.Application.csproj.CoreCompileInputs.cache
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\obj\Debug\net9.0\CashCont.EB86EFC5.Up2Date
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\obj\Debug\net9.0\CashControl.Application.dll
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\obj\Debug\net9.0\refint\CashControl.Application.dll
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\obj\Debug\net9.0\CashControl.Application.pdb
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Application\obj\Debug\net9.0\ref\CashControl.Application.dll
