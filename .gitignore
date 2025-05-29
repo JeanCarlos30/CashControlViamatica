@@ -1,0 +1,80 @@
+# ==== Backend (.NET Core) ====
+
+# Build output
+Backend/bin/
+Backend/obj/
+Backend/out/
+
+# User-specific files
+Backend/*.user
+Backend/*.suo
+Backend/*.userosscache
+Backend/*.sln.docstates
+
+# Visual Studio / Rider
+Backend/.vs/
+Backend/.idea/
+
+# Publish folder
+Backend/publish/
+
+# Logs
+Backend/*.log
+Backend/logs/
+Backend/LogFiles/
+
+# NuGet packages
+Backend/packages/
+Backend/.nuget/
+Backend/project.assets.json
+
+# Runtime files
+Backend/*.deps.json
+Backend/*.runtimeconfig.json
+
+# Secret files
+Backend/secrets.json
+Backend/local.settings.json
+
+# OS generated files
+Backend/Thumbs.db
+Backend/ehthumbs.db
+Backend/.DS_Store
+
+# =====================
+# Frontend (Angular)
+# =====================
+
+Frontend/node_modules/
+Frontend/dist/
+Frontend/out-tsc/
+Frontend/.angular/
+Frontend/.vscode/
+Frontend/.idea/
+
+# IDE / Editor files
+Frontend/*.log
+Frontend/.DS_Store
+Frontend/*.swp
+
+# Temporary files
+Frontend/*.tmp
+Frontend/*.temp
+
+# Environment files (optional)
+Frontend/src/environments/environment*.ts
+
+# =====================
+# Root files
+# =====================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VSCode at root
+.vscode/
+.idea/
+
+# Logs at root
+*.log
