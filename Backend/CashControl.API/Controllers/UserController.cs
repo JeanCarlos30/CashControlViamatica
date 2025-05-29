@@ -7,25 +7,28 @@ namespace CashControl.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class UsuariosController : ControllerBase
+    public class UserController : ControllerBase
     {
         private readonly IUsuarioService _usuarioService;
 
-        public UsuariosController(IUsuarioService usuarioService)
+        public UserController(IUsuarioService usuarioService)
         {
             _usuarioService = usuarioService;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CrearUsuario([FromBody] CrearUsuarioDto dto)
+        [HttpPost("create")]
+        public async Task<IActionResult> CrearUsuario([FromBody] UserCreateDto dto)
         {
-            var result = await _usuarioService.CrearUsuarioAsync(dto);
-            if (result is null)
+            var result = await _usuarioService.AddAsync(dto);
+            Console.WriteLine("El valor de result es {0}", result);
+            if (string.IsNullOrWhiteSpace(result))
             {
+                Console.WriteLine("El valor de result es vacio");
                 return Ok(ApiResponse<string>.Ok("Usuario creado correctamente.", null));
             }
             else
             {
+                Console.WriteLine("El valor de result no es vacio"); 
                 return Ok(ApiResponse<string>.Fail(result));
             }
         }

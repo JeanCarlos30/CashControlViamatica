@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\dtos\\menuoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\dtos\\menuoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A611D374-7CA3-4CE1-8C5E-1532D3426D5F}|CashControl.Infrastructure\\CashControl.Infrastructure.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A611D374-7CA3-4CE1-8C5E-1532D3426D5F}|CashControl.Infrastructure\\CashControl.Infrastructure.csproj|solutionrelative:cashcontrol.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A611D374-7CA3-4CE1-8C5E-1532D3426D5F}|CashControl.Infrastructure\\CashControl.Infrastructure.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A611D374-7CA3-4CE1-8C5E-1532D3426D5F}|CashControl.Infrastructure\\CashControl.Infrastructure.csproj|solutionrelative:cashcontrol.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|solutionrelative:cashcontrol.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|solutionrelative:cashcontrol.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|solutionrelative:cashcontrol.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.domain\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|solutionrelative:cashcontrol.domain\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.domain\\entities\\systemuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|solutionrelative:cashcontrol.domain\\entities\\systemuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\dtos\\menuoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\dtos\\menuoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|solutionrelative:cashcontrol.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.domain\\entities\\optionrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,28 +67,12 @@
       "RelativeMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|solutionrelative:cashcontrol.domain\\entities\\menuoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.domain\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|solutionrelative:cashcontrol.domain\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A611D374-7CA3-4CE1-8C5E-1532D3426D5F}|CashControl.Infrastructure\\CashControl.Infrastructure.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.infrastructure\\context\\cashcontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A611D374-7CA3-4CE1-8C5E-1532D3426D5F}|CashControl.Infrastructure\\CashControl.Infrastructure.csproj|solutionrelative:cashcontrol.infrastructure\\context\\cashcontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.domain\\entities\\systemuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|solutionrelative:cashcontrol.domain\\entities\\systemuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.domain\\entities\\userstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,14 +139,6 @@
       "RelativeMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|solutionrelative:cashcontrol.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|solutionrelative:cashcontrol.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|solutionrelative:cashcontrol.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.api\\utils\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|solutionrelative:cashcontrol.api\\utils\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -139,28 +163,8 @@
       "RelativeMoniker": "D:0:0:{A611D374-7CA3-4CE1-8C5E-1532D3426D5F}|CashControl.Infrastructure\\CashControl.Infrastructure.csproj|solutionrelative:cashcontrol.infrastructure\\interfaces\\icashcontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A33C64-A835-4B42-BF8C-BA12885A2A35}|CashControl.Domain\\CashControl.Domain.csproj|solutionrelative:cashcontrol.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|solutionrelative:cashcontrol.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\dtos\\crearusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\dtos\\crearusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF98E495-DA2A-4869-B203-2BBD137F53FC}|CashControl.Application\\CashControl.Application.csproj|solutionrelative:cashcontrol.application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20C561B7-A5AA-4961-B632-623B9C8487CF}|CashControl.API\\CashControl.API.csproj|c:\\users\\jeanb\\source\\repos\\pruebaviamatica\\cashcontrolviamatica\\backend\\cashcontrol.api\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -202,72 +206,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CashControl.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "CashControl.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T20:42:14.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "CashControl.Application\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "CashControl.Application\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T05:46:19.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Interfaces\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "CashControl.Domain\\Interfaces\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Interfaces\\IAuthRepository.cs",
+              "RelativeToolTip": "CashControl.Domain\\Interfaces\\IAuthRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:07:07.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CashControl.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "CashControl.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T05:55:08.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CashControl.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CashControl.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwB4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T06:24:21.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Program.cs",
+              "RelativeDocumentMoniker": "CashControl.API\\Program.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Program.cs",
+              "RelativeToolTip": "CashControl.API\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAApwB0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T05:38:02.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Infrastructure\\Repositories\\AuthRepository.cs",
               "RelativeDocumentMoniker": "CashControl.Infrastructure\\Repositories\\AuthRepository.cs",
               "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Infrastructure\\Repositories\\AuthRepository.cs",
               "RelativeToolTip": "CashControl.Infrastructure\\Repositories\\AuthRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T04:43:36.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "CashControl.Application\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Services\\AuthService.cs",
               "RelativeToolTip": "CashControl.Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwDQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBkAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T04:08:51.644Z"
+              "WhenOpened": "2025-05-26T04:08:51.644Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CashControlDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Infrastructure\\Context\\CashControlDbContext.cs",
-              "RelativeDocumentMoniker": "CashControl.Infrastructure\\Context\\CashControlDbContext.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Infrastructure\\Context\\CashControlDbContext.cs",
-              "RelativeToolTip": "CashControl.Infrastructure\\Context\\CashControlDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAawBAAAAA9AAAAAAAAAA==",
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "CashControl.Application\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "CashControl.Application\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T06:11:53.124Z"
+              "WhenOpened": "2025-05-27T04:07:14.66Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IAuthRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Interfaces\\IAuthRepository.cs",
-              "RelativeDocumentMoniker": "CashControl.Domain\\Interfaces\\IAuthRepository.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Interfaces\\IAuthRepository.cs",
-              "RelativeToolTip": "CashControl.Domain\\Interfaces\\IAuthRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "CashControl.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "CashControl.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T04:07:07.618Z"
+              "WhenOpened": "2025-05-27T04:07:53.201Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "CashControl.Application\\DTOs\\AuthResponseDto.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\AuthResponseDto.cs",
-              "RelativeToolTip": "CashControl.Application\\DTOs\\AuthResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "SystemUser.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\SystemUser.cs",
+              "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\SystemUser.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\SystemUser.cs",
+              "RelativeToolTip": "CashControl.Domain\\Entities\\SystemUser.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA4wA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T04:58:19.97Z"
+              "WhenOpened": "2025-05-26T04:40:50.661Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
+              "Title": "UserCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\UserCreateDto.cs",
+              "RelativeDocumentMoniker": "CashControl.Application\\DTOs\\UserCreateDto.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\UserCreateDto.cs",
+              "RelativeToolTip": "CashControl.Application\\DTOs\\UserCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:16:56.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CashControl.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CashControl.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA0wBEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:09:10.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MenuOptionDto.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\MenuOptionDto.cs",
+              "RelativeDocumentMoniker": "CashControl.Application\\DTOs\\MenuOptionDto.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\MenuOptionDto.cs",
+              "RelativeToolTip": "CashControl.Application\\DTOs\\MenuOptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:32:49.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "MenuOption.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\MenuOption.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\MenuOption.cs",
@@ -279,20 +404,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuOptionDto.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\MenuOptionDto.cs",
-              "RelativeDocumentMoniker": "CashControl.Application\\DTOs\\MenuOptionDto.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\MenuOptionDto.cs",
-              "RelativeToolTip": "CashControl.Application\\DTOs\\MenuOptionDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "CashControl.Application\\DTOs\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\AuthResponseDto.cs",
+              "RelativeToolTip": "CashControl.Application\\DTOs\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T05:32:49.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T04:58:19.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
+              "Title": "CashControlDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Infrastructure\\Context\\CashControlDbContext.cs",
+              "RelativeDocumentMoniker": "CashControl.Infrastructure\\Context\\CashControlDbContext.cs",
+              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Infrastructure\\Context\\CashControlDbContext.cs",
+              "RelativeToolTip": "CashControl.Infrastructure\\Context\\CashControlDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAawBAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T06:11:53.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "OptionRole.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\OptionRole.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\OptionRole.cs",
@@ -304,31 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "CashControl.Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "CashControl.Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:07:53.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SystemUser.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\SystemUser.cs",
-              "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\SystemUser.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\SystemUser.cs",
-              "RelativeToolTip": "CashControl.Domain\\Entities\\SystemUser.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T04:40:50.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "MethodPayment.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\MethodPayment.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\MethodPayment.cs",
@@ -340,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "Payments.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\Payments.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\Payments.cs",
@@ -352,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\Rol.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\Rol.cs",
@@ -364,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\Service.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\Service.cs",
@@ -376,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "StatusContract.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\StatusContract.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\StatusContract.cs",
@@ -388,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "Turn.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\Turn.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\Turn.cs",
@@ -400,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "UserStatus.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\UserStatus.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\UserStatus.cs",
@@ -412,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "Device.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\Device.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\Device.cs",
@@ -424,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "Contract.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\Contract.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\Contract.cs",
@@ -436,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "UserCash.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\UserCash.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\UserCash.cs",
@@ -448,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\Client.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\Client.cs",
@@ -460,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "Cash.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\Cash.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\Cash.cs",
@@ -472,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "AttentionType.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\AttentionType.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\AttentionType.cs",
@@ -484,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "AttentionStatus.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\AttentionStatus.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\AttentionStatus.cs",
@@ -496,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "Attention.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Entities\\Attention.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Entities\\Attention.cs",
@@ -508,19 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "CashControl.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "CashControl.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBkAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:09:10.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Utils\\ApiResponse.cs",
               "RelativeDocumentMoniker": "CashControl.API\\Utils\\ApiResponse.cs",
@@ -532,19 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Program.cs",
-              "RelativeDocumentMoniker": "CashControl.API\\Program.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Program.cs",
-              "RelativeToolTip": "CashControl.API\\Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAgwEQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T05:38:02.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Common\\BaseEntity.cs",
@@ -556,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\appsettings.json",
               "RelativeDocumentMoniker": "CashControl.API\\appsettings.json",
@@ -568,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "JwtTokenGenerator.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Infrastructure\\Security\\JwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "CashControl.Infrastructure\\Security\\JwtTokenGenerator.cs",
@@ -580,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Dockerfile",
               "RelativeDocumentMoniker": "CashControl.API\\Dockerfile",
@@ -592,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "IJwtTokenGenerator.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Interfaces\\IJwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "CashControl.Domain\\Interfaces\\IJwtTokenGenerator.cs",
@@ -604,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "ICashControlDbContext.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Infrastructure\\Interfaces\\ICashControlDbContext.cs",
               "RelativeDocumentMoniker": "CashControl.Infrastructure\\Interfaces\\ICashControlDbContext.cs",
@@ -616,31 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Interfaces\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "CashControl.Application\\Interfaces\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Interfaces\\IUsuarioService.cs",
-              "RelativeToolTip": "CashControl.Application\\Interfaces\\IUsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:07:14.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "CashControl.Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "CashControl.Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T05:55:08.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "LoginRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\LoginRequestDto.cs",
               "RelativeDocumentMoniker": "CashControl.Application\\DTOs\\LoginRequestDto.cs",
@@ -652,43 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "CashControl.API\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "CashControl.API\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T06:24:21.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "CrearUsuarioDto.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\CrearUsuarioDto.cs",
-              "RelativeDocumentMoniker": "CashControl.Application\\DTOs\\CrearUsuarioDto.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\DTOs\\CrearUsuarioDto.cs",
-              "RelativeToolTip": "CashControl.Application\\DTOs\\CrearUsuarioDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:16:56.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "CashControl.Application\\Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "CashControl.Application\\Services\\UsuarioService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T05:46:19.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "CashControl.Application.csproj",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Application\\CashControl.Application.csproj",
               "RelativeDocumentMoniker": "CashControl.Application\\CashControl.Application.csproj",
@@ -700,7 +728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ErrorHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Middleware\\ErrorHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "CashControl.API\\Middleware\\ErrorHandlingMiddleware.cs",
@@ -712,7 +740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "CashControl.API.csproj",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\CashControl.API.csproj",
               "RelativeDocumentMoniker": "CashControl.API\\CashControl.API.csproj",
@@ -724,7 +752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "CashControl.API\\Controllers\\WeatherForecastController.cs",
@@ -736,7 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "CashControl.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Infrastructure\\CashControl.Infrastructure.csproj",
               "RelativeDocumentMoniker": "CashControl.Infrastructure\\CashControl.Infrastructure.csproj",
@@ -748,7 +776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "CashControl.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\CashControl.Domain.csproj",
               "RelativeDocumentMoniker": "CashControl.Domain\\CashControl.Domain.csproj",
@@ -760,7 +788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "CashControl.API.http",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\CashControl.API.http",
               "RelativeDocumentMoniker": "CashControl.API\\CashControl.API.http",
@@ -772,7 +800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "CashControl.API\\Properties\\launchSettings.json",

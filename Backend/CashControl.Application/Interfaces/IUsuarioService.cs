@@ -5,6 +5,6 @@ namespace CashControl.Application.Interfaces
 {
     public interface IUsuarioService
     {
-        Task<string?> CrearUsuarioAsync(CrearUsuarioDto dto);
+        Task<string?> AddAsync(UserCreateDto dto);
     }
 }

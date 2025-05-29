@@ -16,16 +16,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CashControl.API.Controllers.UsuariosController",
+    "ContainingType": "CashControl.API.Controllers.UserController",
     "Method": "CrearUsuario",
-    "RelativePath": "api/Usuarios",
+    "RelativePath": "api/User/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "CashControl.Application.DTOs.CrearUsuarioDto",
+        "Type": "CashControl.Application.DTOs.UserCreateDto",
         "IsRequired": true
       }
     ],
