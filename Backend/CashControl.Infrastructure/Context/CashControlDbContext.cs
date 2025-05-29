@@ -4,6 +4,7 @@ using Microsoft.Data.SqlClient;
 using System.Data;
 using System.Threading.Tasks;
 using CashControl.Application.Interfaces;
+using CashControlSolution.Domain.Entities;
 
 namespace CashControl.Infrastructure.Context
 {
@@ -12,6 +13,8 @@ namespace CashControl.Infrastructure.Context
         public CashControlDbContext(DbContextOptions<CashControlDbContext> options) : base(options) { }
 
         public DbSet<SystemUser> SystemUser => Set<SystemUser>();
+        public DbSet<OptionRole> OptionRole => Set<OptionRole>();
+        public DbSet<MenuOption> MenuOption => Set<MenuOption>();
 
         public async Task<int> ExecuteSqlAsync(string spName, SqlParameter[] parameters)
         {

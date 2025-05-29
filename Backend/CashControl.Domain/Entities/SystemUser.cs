@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
+namespace CashControl.Domain.Entities;
 public class SystemUser
 {
     [Key]

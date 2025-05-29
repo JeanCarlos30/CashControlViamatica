@@ -3,6 +3,7 @@ using CashControl.Application.Interfaces;
 using CashControl.Domain.Entities;
 using CashControl.Domain.Interfaces;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,12 +33,24 @@ namespace CashControl.Application.Services
             if (result != PasswordVerificationResult.Success)
                 return null;
             var token = _tokenGenerator.GenerateToken(user);
+
+            // Obtener las opciones de menú
+            var menuOptions = await _repo.MenuAsync((int)user.Rol_RolId!);
+
+            var menuDto = menuOptions.Select(option => new MenuOptionDto
+            {
+                Label = option.Label,
+                Icon = option.Icon,
+                Route = option.Route
+            }).ToList();
+
             return new AuthResponseDto 
             { 
                 User =  user.UserName, 
                 Role = user.Rol_RolId.ToString(),
                 Jwt = token,
-                ExpireDate = (int)DateTimeOffset.UtcNow.AddHours(1).ToUnixTimeSeconds()
+                ExpireDate = (int)DateTimeOffset.UtcNow.AddHours(1).ToUnixTimeSeconds(),
+                Menu = menuDto
             };
         }
     }

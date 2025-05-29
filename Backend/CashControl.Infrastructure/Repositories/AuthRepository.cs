@@ -1,6 +1,7 @@
 ﻿using CashControl.Domain.Entities;
 using CashControl.Domain.Interfaces;
 using CashControl.Infrastructure.Context;
+using CashControlSolution.Domain.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -23,6 +24,15 @@ namespace CashControl.Infrastructure.Repositories
         public async Task<SystemUser?> LoginAsync(string usuario, string password)
         {
             return await _db.SystemUser.FirstOrDefaultAsync(u => u.UserName == usuario);
+        }
+
+        public async Task<List<MenuOption>?> MenuAsync(int role)
+        {
+            return await _db.OptionRole
+                            .Where(or => or.Role_RoleId == role)
+                            .OrderBy(or => or.Order)
+                            .Select(or => or.MenuOption)
+                            .ToListAsync();
         }
     }
 }

@@ -9,3 +9,15 @@ C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Domain\obj\Debug\net9.0\
 C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Domain\obj\Debug\net9.0\refint\CashControl.Domain.dll
 C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Domain\obj\Debug\net9.0\CashControl.Domain.pdb
 C:\Users\jeanb\source\repos\PruebaViamatica\CashControl.Domain\obj\Debug\net9.0\ref\CashControl.Domain.dll
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\obj\Debug\net9.0\CashControl.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\obj\Debug\net9.0\CashControl.Domain.AssemblyInfoInputs.cache
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\obj\Debug\net9.0\CashControl.Domain.AssemblyInfo.cs
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\obj\Debug\net9.0\CashControl.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\obj\Debug\net9.0\CashControl.Domain.sourcelink.json
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\bin\Debug\net9.0\CashControl.Domain.deps.json
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\bin\Debug\net9.0\CashControl.Domain.dll
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\bin\Debug\net9.0\CashControl.Domain.pdb
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\obj\Debug\net9.0\CashControl.Domain.dll
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\obj\Debug\net9.0\refint\CashControl.Domain.dll
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\obj\Debug\net9.0\CashControl.Domain.pdb
+C:\Users\jeanb\source\repos\PruebaViamatica\CashControlViamatica\Backend\CashControl.Domain\obj\Debug\net9.0\ref\CashControl.Domain.dll

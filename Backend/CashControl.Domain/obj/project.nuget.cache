@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BfCuDDg5JuI=",
+  "dgSpecHash": "euB4OkjeT0w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControl.Domain\\CashControl.Domain.csproj",
+  "projectFilePath": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\CashControl.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

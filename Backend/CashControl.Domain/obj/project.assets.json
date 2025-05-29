@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControl.Domain\\CashControl.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\CashControl.Domain.csproj",
       "projectName": "CashControl.Domain",
-      "projectPath": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControl.Domain\\CashControl.Domain.csproj",
+      "projectPath": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\CashControl.Domain.csproj",
       "packagesPath": "C:\\Users\\jeanb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControl.Domain\\obj\\",
+      "outputPath": "C:\\Users\\jeanb\\source\\repos\\PruebaViamatica\\CashControlViamatica\\Backend\\CashControl.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
