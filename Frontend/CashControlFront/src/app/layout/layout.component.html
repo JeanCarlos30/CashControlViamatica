@@ -1,0 +1,19 @@
+<mat-sidenav-container style="height: 100vh;">
+  <mat-sidenav mode="side" opened>
+    <app-menu></app-menu>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button mat-icon-button (click)="logout()">
+        <mat-icon>logout</mat-icon>
+      </button>
+      <span style="margin-left: 10px;">CashControlSolution</span>
+    </mat-toolbar>
+
+    <div style="padding: 16px;">
+      <app-loading></app-loading>
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

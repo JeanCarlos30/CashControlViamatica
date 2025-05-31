@@ -1,0 +1,35 @@
+<div style="max-width: 400px; margin: 100px auto;">
+  <app-loading></app-loading>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" autocomplete="off">
+    <h2>Iniciar Sesión</h2>
+
+    <mat-form-field appearance="outline" class="w-full" style="width: 100%;">
+      <mat-label>Usuario</mat-label>
+      <input matInput formControlName="username" />
+      <mat-error *ngIf="f['username'].errors?.['required']">El usuario es obligatorio</mat-error>
+      <mat-error *ngIf="f['username'].errors?.['minlength']">Debe tener al menos 8 caracteres</mat-error>
+      <mat-error *ngIf="f['username'].errors?.['maxlength']">No debe exceder los 20 caracteres</mat-error>
+      <mat-error *ngIf="f['username'].errors?.['pattern']">Debe tener letras y al menos un número. Sin símbolos.</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="w-full" style="width: 100%;">
+      <mat-label>Contraseña</mat-label>
+      <input matInput type="password" formControlName="password" />
+      <mat-error *ngIf="f['password'].errors?.['required']">La contraseña es obligatoria</mat-error>
+      <mat-error *ngIf="f['password'].errors?.['minlength']">Mínimo 8 caracteres</mat-error>
+      <mat-error *ngIf="f['password'].errors?.['maxlength']">Máximo 30 caracteres</mat-error>
+      <mat-error *ngIf="f['password'].errors?.['pattern']">
+        Debe tener al menos una mayúscula, una minúscula y un número.
+      </mat-error>
+    </mat-form-field>
+    <div class="mb-3 text-end">
+      <a href="#" class="text-sm text-blue-600 hover:underline">
+        ¿Olvidaste tu contraseña?
+      </a>
+    </div>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="loginForm.invalid" style="width: 100%;">
+      Ingresar
+    </button>
+  </form>
+</div>
