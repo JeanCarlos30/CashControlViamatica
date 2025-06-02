@@ -1,0 +1,26 @@
+.edit-user-card {
+  max-width: 500px;
+  margin: 32px auto;
+  padding: 24px;
+}
+
+.edit-user-form .form-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.full-width {
+  flex: 1 1 100%;
+}
+
+.half-width {
+  flex: 1 1 48%;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+}

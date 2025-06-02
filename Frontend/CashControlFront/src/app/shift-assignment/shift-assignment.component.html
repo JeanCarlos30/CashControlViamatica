@@ -1,0 +1,22 @@
+<mat-card>
+  <h2>Asignación de Turnos a Cajeros</h2>
+  <form [formGroup]="shiftForm" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Caja</mat-label>
+      <mat-select formControlName="cashId" required>
+        <mat-option *ngFor="let c of cajeros" [value]="c.id">{{ c.nombre }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Descripción del Turno</mat-label>
+      <input matInput formControlName="description" placeholder="Ej: PN001" required />
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Fecha y Hora</mat-label>
+      <input matInput type="datetime-local" formControlName="dateTurn" required>
+    </mat-form-field>
+    <div class="actions">
+      <button mat-raised-button color="primary" type="submit" [disabled]="shiftForm.invalid">Asignar Turno</button>
+    </div>
+  </form>
+</mat-card>

@@ -23,7 +23,9 @@ namespace CashControl.Infrastructure.Repositories
 
         public async Task<SystemUser?> LoginAsync(string usuario, string password)
         {
-            return await _db.SystemUser.FirstOrDefaultAsync(u => u.UserName == usuario);
+            return await _db.SystemUser
+                .Include(u => u.Rol)
+                .FirstOrDefaultAsync(u => u.UserName == usuario);
         }
 
         public async Task<List<MenuOption>?> MenuAsync(int role)

@@ -7,6 +7,9 @@ import { Router } from '@angular/router';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { LoadingComponent } from '../loading/loading.component';
+import { LoginRequest, LoginResponse } from '../core/dtos/login.dto';
+import { ApiResponse } from '../core/dtos/api-response.dto';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   standalone: true,
@@ -17,7 +20,12 @@ import { LoadingComponent } from '../loading/loading.component';
 export class LoginComponent {
   loginForm: FormGroup;
 
-  constructor(private fb: FormBuilder, private authService: AuthService, private menuService: MenuService, private router: Router) {
+  constructor(
+    private fb: FormBuilder, 
+    private authService: AuthService, 
+    private menuService: MenuService, 
+    private router: Router,
+    private snackBar: MatSnackBar,) {
     this.loginForm = this.fb.group({
       username: [
         '',
@@ -46,19 +54,20 @@ export class LoginComponent {
 
   onSubmit() {
     if (this.loginForm.invalid) return;
-    const { username, password } = this.loginForm.value;
-    this.authService.login(username, password).subscribe({
-      next: (res) => {
-        const { jwt, role, menu } = res.data;
-        this.authService.saveSession(jwt, role, menu);
-        this.menuService.loadMenu();
-        this.router.navigate(['/dashboard']);
+    const credenciales: LoginRequest = this.loginForm.value;
+    this.authService.login(credenciales).subscribe({
+      next: (res: ApiResponse<LoginResponse>) => {
+        if(res.success && res.data) {
+          this.authService.saveSession(res.data.jwt, res.data.userName, res.data.role, res.data.roleDescripcion, res.data.menu);
+          this.menuService.loadMenu();
+          this.router.navigate(['/welcome']);
+        }        
       },
       error: (error) => {
         if (error.error?.message) {
-          alert(error.error.message);
+          this.snackBar.open(error.error.message || 'Error al autenticarse', 'Cerrar', { duration: 3000 });
         } else {
-          alert('Error al autenticarse');
+          this.snackBar.open('Error al autenticarse', 'Cerrar', { duration: 3000 });
         }
       }
     });

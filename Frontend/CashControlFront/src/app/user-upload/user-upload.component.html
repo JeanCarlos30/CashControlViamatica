@@ -1,0 +1,6 @@
+<mat-card>
+  <h2>Carga masiva de usuarios</h2>
+  <input type="file" (change)="onFileChange($event)" accept=".xlsx,.csv" />
+  <button mat-raised-button color="primary" (click)="upload()">Subir</button>
+  <div *ngIf="uploadResult">{{ uploadResult }}</div>
+</mat-card>

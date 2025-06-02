@@ -45,24 +45,24 @@ Backend/.DS_Store
 # Frontend (Angular)
 # =====================
 
-Frontend/node_modules/
-Frontend/dist/
-Frontend/out-tsc/
-Frontend/.angular/
-Frontend/.vscode/
-Frontend/.idea/
+Frontend/CashControlFront/node_modules/
+Frontend/CashControlFront/dist/
+Frontend/CashControlFront/out-tsc/
+Frontend/CashControlFront/.angular/
+Frontend/CashControlFront/.vscode/
+Frontend/CashControlFront/.idea/
 
 # IDE / Editor files
-Frontend/*.log
-Frontend/.DS_Store
-Frontend/*.swp
+Frontend/CashControlFront/*.log
+Frontend/CashControlFront/.DS_Store
+Frontend/CashControlFront/*.swp
 
 # Temporary files
-Frontend/*.tmp
-Frontend/*.temp
+Frontend/CashControlFront/*.tmp
+Frontend/CashControlFront/*.temp
 
 # Environment files (optional)
-Frontend/src/environments/environment*.ts
+Frontend/CashControlFront/src/environments/environment*.ts
 
 # =====================
 # Root files

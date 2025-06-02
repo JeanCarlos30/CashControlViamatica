@@ -13,6 +13,7 @@ public class SystemUser
     [Required, StringLength(256)]
     public string Password { get; set; }
     public int? Rol_RolId { get; set; }
+    public Rol? Rol { get; set; }
     public DateTime? CreationDate { get; set; }
     public int? UserCreate { get; set; }
     public int? UserApproval { get; set; }

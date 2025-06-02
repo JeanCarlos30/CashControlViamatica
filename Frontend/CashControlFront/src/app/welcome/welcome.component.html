@@ -1,0 +1,15 @@
+<mat-card>
+  <h2>Bienvenido, {{ userName }}</h2>
+  <p>Rol: {{ rolDescripcion }}</p>
+  <mat-list>
+    <mat-list-item>Total de turnos hoy: {{ totalTurnos }}</mat-list-item>
+  </mat-list>
+  <div *ngIf="rolId === '2'">
+    <h3>Usuarios pendientes de aprobación</h3>
+    <mat-list>
+      <mat-list-item *ngFor="let u of pendientesAprobacion">
+        {{ u.userName }} ({{ u.email }})
+      </mat-list-item>
+    </mat-list>
+  </div>
+</mat-card>

@@ -2,6 +2,7 @@
 using CashControl.Domain.Interfaces;
 using CashControl.Infrastructure.Context;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -36,6 +37,25 @@ namespace CashControl.Infrastructure.Repositories
             }, "@Error");
 
             return error.Value?.ToString();
+        }
+
+        public async Task<IEnumerable<SystemUser>> GetAllAsync()
+        {
+            return await _db.SystemUser
+                .Include(u => u.Rol)
+                .ToListAsync();
+        }
+        public async Task<SystemUser?> GetByIdAsync(int id)
+        {
+            return await _db.SystemUser
+                .Include(u => u.Rol)
+                .FirstOrDefaultAsync(u => u.UserId == id);
+        }
+
+        public async Task UpdateAsync(SystemUser user)
+        {
+            _db.SystemUser.Update(user);
+            await _db.SaveChangesAsync();
         }
     }
 }

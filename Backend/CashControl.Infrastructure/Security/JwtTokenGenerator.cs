@@ -28,7 +28,7 @@ namespace CashControl.Infrastructure.Security
 
             var claims = new[]
             {
-            new Claim(ClaimTypes.NameIdentifier, user.UserName),
+            new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
             new Claim(ClaimTypes.Role, user.Rol_RolId.ToString())
         };
 

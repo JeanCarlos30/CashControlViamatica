@@ -16,6 +16,15 @@ namespace CashControl.Infrastructure.Context
         public DbSet<OptionRole> OptionRole => Set<OptionRole>();
         public DbSet<MenuOption> MenuOption => Set<MenuOption>();
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<SystemUser>()
+                .HasOne(u => u.Rol)
+                .WithMany()
+                .HasForeignKey(u => u.Rol_RolId)
+                .HasPrincipalKey(r => r.RolId);
+        }
+
         public async Task<int> ExecuteSqlAsync(string spName, SqlParameter[] parameters)
         {
             var sql = $"EXEC {spName} " + string.Join(",", parameters.Select(p => p.ParameterName));

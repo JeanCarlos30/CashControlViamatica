@@ -1,9 +1,9 @@
 import {
   MatCommonModule
-} from "./chunk-YXYZZCOO.js";
+} from "./chunk-UF2LVPMS.js";
 import "./chunk-X2KBHNSN.js";
-import "./chunk-OPHDUUQE.js";
-import "./chunk-ULXI7JYN.js";
+import "./chunk-BGG6W6LZ.js";
+import "./chunk-PCJYUZYI.js";
 import {
   NgTemplateOutlet
 } from "./chunk-YD6ZNT5X.js";
@@ -44,8 +44,8 @@ import {
   ɵɵtemplateRefExtractor,
   ɵɵviewQuery
 } from "./chunk-PZLDNP2X.js";
-import "./chunk-FFZIAYYX.js";
 import "./chunk-6Q4RANH6.js";
+import "./chunk-FFZIAYYX.js";
 import "./chunk-CXCX2JKZ.js";
 
 // node_modules/@angular/material/fesm2022/progress-spinner.mjs

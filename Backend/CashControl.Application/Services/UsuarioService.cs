@@ -46,6 +46,46 @@ namespace CashControl.Application.Services
             return result?.ToString();
         }
 
+        public async Task<IEnumerable<UserDto>> GetAllByStatusAsync(string status)
+        {
+            var users = await _repo.GetAllAsync();
+            return users
+                .Where(u => u.UserStatus_StatusId == status)
+                .Select(MapToUserDto)
+                .ToList();
+        }
+
+        public async Task<UserDto?> GetByIdAsync(int id)
+        {
+            var user = await _repo.GetByIdAsync(id);
+            return user == null ? null : MapToUserDto(user);
+        }
+
+        public async Task<string?> UpdateAsync(int id, UserDto dto)
+        {
+            var user = await _repo.GetByIdAsync(id);
+            if (user == null)
+                return "Usuario no encontrado.";
+
+            // Actualiza solo los campos permitidos
+            user.Email = dto.Email ?? user.Email;
+            user.Rol_RolId = dto.RolId != 0 ? dto.RolId : user.Rol_RolId;
+
+            await _repo.UpdateAsync(user);
+            return null;
+        }
+
+        public async Task<string?> DeleteAsync(int id, string newStatus)
+        {
+            var user = await _repo.GetByIdAsync(id);
+            if (user == null)
+                return "Usuario no encontrado.";
+
+            user.UserStatus_StatusId = newStatus;
+            await _repo.UpdateAsync(user);
+            return null;
+        }
+
         private bool ValidarFormatoPassword(string password)
         {
             if (string.IsNullOrWhiteSpace(password))
@@ -55,5 +95,29 @@ namespace CashControl.Application.Services
             return regex.IsMatch(password);
         }
 
+        private bool EsUsuarioValido(string userName)
+        {
+            if (string.IsNullOrWhiteSpace(userName) || userName.Length < 8 || userName.Length > 20)
+                return false;
+            if (!userName.Any(char.IsLetter) || !userName.Any(char.IsDigit))
+                return false;
+            if (userName.Any(c => !char.IsLetterOrDigit(c)))
+                return false;
+            return true;
+        }
+
+        // Método de mapeo
+        private UserDto MapToUserDto(SystemUser user)
+        {
+            return new UserDto
+            {
+                UserId = user.UserId,
+                UserName = user.UserName,
+                Email = user.Email,
+                RolId = user.Rol_RolId,
+                RolName = user.Rol?.RolName,
+                Status = user.UserStatus_StatusId
+            };
+        }
     }
 }

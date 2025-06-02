@@ -7,8 +7,10 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
-import { SystemUserService } from '../core/services/system-user.service';
+import { UserService } from '../core/services/user.service';
 import { Router } from '@angular/router';
+import { CreateUserRequest } from '../core/dtos/create-user.dto';
+import { ApiResponse } from '../core/dtos/api-response.dto';
 
 @Component({
   standalone: true,
@@ -36,9 +38,8 @@ export class CreateUserComponent implements OnInit {
 
   constructor(
     private fb: FormBuilder,
-    private systemUserService: SystemUserService,
-    private snackBar: MatSnackBar,
-    private router: Router
+    private userService: UserService,
+    private snackBar: MatSnackBar
   ) {
     this.userForm = this.fb.group({
       userName: [
@@ -71,25 +72,22 @@ export class CreateUserComponent implements OnInit {
   onSubmit() {
     if (this.userForm.invalid) return;
 
-    const newUser = {
-      userName: this.userForm.value['userName'],
-      email: this.userForm.value['email'],
-      password: this.userForm.value['password'],
-      rolId: this.userForm.value['rolId']
-    };
+    const newUser: CreateUserRequest = this.userForm.value;
 
-    this.systemUserService.createUser(newUser).subscribe({
-      next: (res) => {
-        alert(res.message);
+    this.userService.createUser(newUser).subscribe({
+      next: (res: ApiResponse<null>) => {
+        this.snackBar.open(res.message || 'Usuario creado', 'Cerrar', { duration: 3000 });
         if (res.success) {
-          this.userForm.reset();//
+          this.userForm.reset();
+          this.userForm.markAsPristine();
+          this.userForm.markAsUntouched();
         }        
       },
       error: (error) => {
         if (error.error?.message) {
-          alert(error.error.message);
+          this.snackBar.open(error.error.message || 'Error al crear usuario', 'Cerrar', { duration: 3000 });
         } else {
-          alert('Error al crear usuario');
+          this.snackBar.open('Error al crear usuario', 'Cerrar', { duration: 3000 });
         }
       }
     });

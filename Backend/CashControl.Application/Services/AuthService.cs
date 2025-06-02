@@ -23,13 +23,15 @@ namespace CashControl.Application.Services
             var user = await _repo.LoginAsync(request.UserName, request.Password);
             if (user == null)
                 return null;
+
             var result = _hasher.VerifyHashedPassword(user, user.Password, request.Password);
             if (result != PasswordVerificationResult.Success)
                 return null;
+
             var token = _tokenGenerator.GenerateToken(user);
 
             // Obtener las opciones de menú
-            var menuOptions = await _repo.MenuAsync((int)user.Rol_RolId!);
+            var menuOptions = await _repo.MenuAsync(user.Rol_RolId ?? 0);
 
             var menuDto = menuOptions.Select(option => new MenuOptionDto
             {
@@ -38,13 +40,14 @@ namespace CashControl.Application.Services
                 Route = option.Route
             }).ToList();
 
-            return new AuthResponseDto 
-            { 
-                User =  user.UserName, 
-                Role = user.Rol_RolId.ToString(),
+            return new AuthResponseDto
+            {
+                UserName = user.UserName,
+                Role = user.Rol_RolId?.ToString() ?? string.Empty,
                 Jwt = token,
                 ExpireDate = (int)DateTimeOffset.UtcNow.AddHours(1).ToUnixTimeSeconds(),
-                Menu = menuDto
+                Menu = menuDto,
+                RoleDescripcion = user.Rol?.RolName ?? string.Empty
             };
         }
     }
